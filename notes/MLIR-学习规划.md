@@ -229,6 +229,8 @@ mlir-opt input.mlir -pass-pipeline='builtin.module(func.func(canonicalize))'
 
 **这一阶段完成标志**：能独立定义一个只有一个 Op 的方言，写一个 pass 把它 lower 成 `arith`，并用 `mlir-opt` 跑通。
 
+> 更详细的逐步教程见《MLIR-方言与Pass开发教程.md》。
+
 ---
 
 ## 阶段 3：官方 Toy Tutorial（2–3 周，全程动手）
